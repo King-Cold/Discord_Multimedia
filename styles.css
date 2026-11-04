@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --azul: #5865f2;
+  --oscuro: #23272a;
+  --blanco: #fff;
+  --negro: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: var(--oscuro);
+  background-color: var(--blanco);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+h1,
+h2 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.encabezado {
+  width: 100%;
+  background-color: var(--azul);
+}
+
+.encabezado-contenido {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  width: 125px;
+}
+
+.logo img,
+.logo-pie img {
+  width: 100%;
+}
+
+.icono-menu {
+  display: none;
+}
+
+.navegacion ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  list-style: none;
+}
+
+.navegacion a {
+  display: inline-block;
+  padding: 10px 0;
+  color: var(--blanco);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navegacion a:hover {
+  text-decoration: underline;
+}
+
+.boton-login {
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: var(--oscuro);
+  background-color: var(--blanco);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.portada {
+  width: 100%;
+  background-color: var(--azul);
+  color: var(--blanco);
+}
+
+.portada-contenido {
+  padding-top: 45px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.portada-texto {
+  width: 44%;
+}
+
+.portada h1 {
+  margin-bottom: 45px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.portada-texto p {
+  max-width: 470px;
+}
+
+.portada-imagen {
+  width: 54%;
+}
+
+.portada-imagen img {
+  width: 100%;
+}
+
+.historia {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.introduccion {
+  margin-bottom: 95px;
+}
+
+.fila-historia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 100px;
+}
+
+.imagen-historia {
+  width: 39%;
+}
+
+.imagen-historia img {
+  width: 100%;
+}
+
+.texto-historia {
+  width: 57%;
+}
+
+
+.llamada {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 70px;
+  padding-top: 15px;
+}
+
+.llamada .marco-video {
+  width: 60%;
+}
+
+.texto-llamada {
+  width: 34%;
+}
+
+.texto-llamada h2 {
+  width: 310px;
+  margin-bottom: 35px;
+}
+
+.marco-video {
+  position: relative;
+}
+
+.marco-fondo {
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  width: 100%;
+  height: 100%;
+  border: 4px solid var(--azul);
+  border-radius: 28px;
+  z-index: 0;
+}
+
+.video-responsive {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 25px;
+  
+}
+
+.comunidad {
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--negro);
+  
+}
+
+.tarjeta-comunidad {
+  padding: 75px 45px;
+  border-radius: 30px;
+  background-color: var(--oscuro);
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.texto-comunidad {
+  width: 42%;
+}
+
+.texto-comunidad h2 {
+  margin-bottom: 35px;
+}
+
+.tarjeta-comunidad .marco-video {
+  width: 53%;
+}
+
+
+.pie {
+  width: 100%;
+  padding: 45px 0;
+  background-color: var(--oscuro);
+}
+
+.pie-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-pie {
+  width: 250px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.redes a {
+  color: var(--blanco);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: var(--azul);
+}

@@ -1,0 +1,215 @@
+@media (max-width: 480px) {
+  .contenedor {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  h2 {
+    margin-bottom: 22px;
+    font-size: 29px;
+    line-height: 1.15;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .encabezado {
+    background-color: var(--oscuro);
+  }
+
+  .encabezado-contenido {
+    min-height: 60px;
+    flex-wrap: wrap;
+    gap: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .logo {
+    width: 135px;
+  }
+
+  .icono-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    color: var(--blanco);
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .boton-login {
+    display: none;
+  }
+
+
+  .navegacion {
+    display: none;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .navegacion ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .navegacion li {
+    width: 100%;
+    border-bottom: 1px dotted #777;
+  }
+
+  .navegacion a {
+    width: 100%;
+    padding: 13px 5px;
+    font-size: 14px;
+  }
+
+  .portada-contenido {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .portada-texto {
+    width: 100%;
+    text-align: center;
+  }
+
+  .portada h1 {
+    max-width: 360px;
+    margin: 0 auto 25px;
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 0.95;
+  }
+
+  .portada-texto p {
+    max-width: 340px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .portada-imagen {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .historia {
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+
+  .introduccion {
+    margin-bottom: 40px;
+  }
+
+  .fila-historia {
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+
+  .prologo {
+    flex-direction: column-reverse;
+  }
+
+  .capitulo {
+    flex-direction: column;
+  }
+
+  .texto-historia {
+    width: 100%;
+  }
+
+  .imagen-historia {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .llamada {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    gap: 22px;
+  }
+
+  .texto-llamada {
+    width: 100%;
+  }
+
+  .texto-llamada h2 {
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+
+ .marco-fondo {
+    display: none;
+  }
+
+  .llamada .marco-video,
+  .tarjeta-comunidad .marco-video {
+    width: 100%;
+  }
+
+  .video-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+  }
+
+  
+.contenedor{
+  padding: 0px 20px;
+}
+
+  .tarjeta-comunidad {
+    padding: 45px 20px;
+    border-radius: 0;
+    flex-direction: column;
+    gap: 25px;
+  }
+.comunidad .contenedor{
+  padding: 0px 0px;
+}
+  .texto-comunidad {
+    width: 100%;
+  }
+
+  .texto-comunidad h2 {
+    margin-bottom: 25px;
+     font-size: 24px;
+  }
+
+
+  .pie {
+    padding: 25px 0 35px;
+  }
+
+  .pie-contenido {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .logo-pie {
+    width: 205px;
+    max-width: 100%;
+  }
+
+  .redes {
+    gap: 20px;
+  }
+
+  .redes a {
+    font-size: 18px;
+  }
+}
